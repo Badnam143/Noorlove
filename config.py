@@ -12,24 +12,24 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","")
+OWNER_USERNAME = getenv("OWNER_USERNAME","BADNAM_JI")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Badnam_songbot")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "")
-EVALOP = list(map(int, getenv("EVALOP", "6322247029").split()))
+EVALOP = list(map(int, getenv("EVALOP", "7197483900").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002103279505))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002118096183))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6134246701))
+OWNER_ID = int(getenv("OWNER_ID", 7197483900)
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -85,16 +85,16 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "re"
+    "START_IMG_URL", "https://telegra.ph/file/6affba0d09c45d68acc87.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "re"
+    "PING_IMG_URL", "https://telegra.ph/file/6affba0d09c45d68acc87.jpg"
 )
-PLAYLIST_IMG_URL = "re"
-STATS_IMG_URL = "re"
-TELEGRAM_AUDIO_URL = "re"
-TELEGRAM_VIDEO_URL = "re"
-STREAM_IMG_URL = "re"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/6affba0d09c45d68acc87.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/6affba0d09c45d68acc87.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/6affba0d09c45d68acc87.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/6affba0d09c45d68acc87.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/6affba0d09c45d68acc87.jpg"
 SOUNCLOUD_IMG_URL = "re"
 YOUTUBE_IMG_URL = "re"
 SPOTIFY_ARTIST_IMG_URL = "re"
